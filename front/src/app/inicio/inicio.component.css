@@ -1,0 +1,119 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar-logo {
+  cursor: pointer;
+}
+
+.logo {
+  height: 40px; /* Ajusta la altura del logo */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-perfil, .btn-cerrar-sesion {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-perfil:hover, .btn-cerrar-sesion:hover {
+  text-decoration: underline; /* Efecto hover */
+}
+
+
+
+.inicio-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 20px;
+  }
+  
+  .publicar-container, .feed-container, .seguir-container {
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="file"]{
+    margin-right: 50px;
+  }
+
+  .preview-container {
+    margin-top: 10px;
+  }
+  
+  .imagen-previa {
+    max-width: 100%;
+    max-height: 300px; /* Ajusta la altura máxima según sea necesario */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .publicacion-item, .usuario-item {
+    margin-bottom: 15px;
+  }
+  
+  .btn-publicar {
+    background-color: #28a745;
+  }
+  
+  .btn-dejar-seguir {
+    background-color: #dc3545;
+  }
+  
+  .btn-seguido {
+    background-color: #6c757d;
+  }
+  
+  .btn-seguir {
+    background-color: #007bff;
+  }
+  
+  .imagen-publicacion {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
